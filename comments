@@ -1,0 +1,18 @@
+GET https://api.github.com/repos/kyori19/github-api-test/comments
+
+###
+
+GET https://api.github.com/repos/kyori19/github-api-test/commits
+
+###
+
+GET https://api.github.com/repos/kyori19/github-api-test/commits/162767862de7abeea68f248d391ae74e384d3e81/comments
+
+###
+
+POST https://api.github.com/repos/kyori19/github-api-test/commits/162767862de7abeea68f248d391ae74e384d3e81/comments
+Authorization: token <Personal Access Token>
+
+{
+  "body": "Test comment from API"
+}
